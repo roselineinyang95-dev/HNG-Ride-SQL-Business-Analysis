@@ -1,0 +1,2 @@
+## PROJECT OVERVIEW
+HNG Ride is a ride-hailing business operating across North American cities. This project uses SQL Server to clean, validate, transform, and analyze ride-hailing data from June 2021 to December 2024. The analysis focuses on understanding rider activity, revenue performance, driver consistency, cancellation patterns, payment behavior, city-level driver performance, and driver eligibility for performance bonuses. The project demonstrates how SQL can be used to transform raw operational data into business insights that can support decision-making.
