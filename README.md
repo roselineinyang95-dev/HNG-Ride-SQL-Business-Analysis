@@ -1,11 +1,20 @@
 ## PROJECT OVERVIEW
-HNG Ride is a mid-sized transportation company and ride-hailing business operating in North American cities. This project uses SQL Server to clean, validate, transform, and analyze ride-hailing data from June 2021 to December 2024. The analysis focuses on understanding rider activity, revenue performance, driver consistency, cancellation patterns, payment behavior, city-level driver performance, and driver eligibility for performance bonuses. The project demonstrates how SQL can be used to transform raw operational data into business insights that can support decision-making.
+This project involved using SQL Server to query and analyze ride-hailing data to identify patterns and generate insights from the database. The project demonstrates how SQL can be used to transform raw operational data into business insights that can support decision-making.
 
 ## Objectives
-The objectives of this project were to review performance for the period of June 2021 to December 2024 to understand how operations have evolved and where to improve.
+The objective of this project was to review performance for the period of June 2021 to December 2024 to understand how operations have evolved and where to improve. It was to answer eight business questions around ride activity, rider retention, revenue growth, driver performance, cancellation rates, payment behavior, city-level performance, and driver eligibility for bonuses.
 
-## Dataset
-The project contains four main raw datasets representing different aspects of the HNG Ride operation: drivers_raw,riders_raw, rides_raw, and payments_raw. The raw data contained several quality issues that required investigation and cleaning, including inconsistent city naming conventions, inconsistent payment method spelling, inconsistent ride-status spelling, numeric values stored as text, negative and zero fare/payment amounts, potential duplicate records that required validation, and date fields stored in different data types.
+## Dataset: HNG Ride 
+The HNG Ride dataset contains data from a mid-sized transportation company and ride-hailing business operating in North American cities covering ride activity from June 2021 to December 2024. The database contains four related business tables: 
+Drivers — driver profiles, cities, signup dates, and ratings
+
+Riders — rider profiles, cities, signup dates, and email information
+
+Rides — ride requests, pickup/drop-off times, locations, distance, status, and fare
+
+Payments — payment records, amounts, payment methods, and payment dates
+The raw data contained approximately 2,000 drivers, 10,000 riders, 5,000 payment records, and 5,000 ride records in the initial files, with the analysis database ultimately containing 50,000 ride records. 
+For the analysis, a completed ride was defined using a payment amount greater than zero.
 
 ## Data Cleaning and Preparation
 
