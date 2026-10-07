@@ -16,6 +16,10 @@ Payments — payment records, amounts, payment methods, and payment dates
 The raw data contained approximately 2,000 drivers, 10,000 riders, 5,000 payment records, and 5,000 ride records in the initial files, with the analysis database ultimately containing 50,000 ride records. 
 For the analysis, a completed ride was defined as having a payment amount greater than zero.
 
+## Tools & Skills
+SQL Server
+- SQL -Data Cleaning - Data Transformation -Business Analysis -Data Validation - Relational Database Analysis
+
 ## Data Cleaning and Preparation
 The raw tables were cleaned and transformed before analysis. Key preparation steps included removing or investigating duplicates, standardizing inconsistent city and status values, correcting payment-method variations, converting text-based numeric fields into appropriate data types, handling invalid fares and payment amounts, and validating dates, ratings, and relationships between tables. 
 Clean versions of the tables were then created for analysis: drivers_clean, riders_clean, rides_clean,payments_clean.
@@ -34,7 +38,23 @@ The analysis focused on eight key business operations.
 
 ## Key Insights
 The SQL analysis revealed several important patterns within the ride-hailing data:
-** 
+- 1,815 of 2,933 riders who signed up in 2021 completed rides in 2024, showing continued activity from a portion of the earlier rider cohort.
+- Q2 2022 recorded the highest calculated YoY revenue growth at 200.80%, although the comparison is affected by the partial Q2 2021 analysis period.
+- Driver_219 recorded the highest average monthly completed-ride rate at 2.38 rides per active month among the drivers analyzed for consistency.
+- Chicago had the highest cancellation rate at 19.26%, while Boston had the lowest at 17.76%.
+- Only two riders with more than 10 completed rides had never used cash.
+- Revenue performance varied by city, with different drivers leading their respective pickup markets.
+- Only two drivers met all three bonus criteria, indicating that the bonus requirements were relatively selective within this dataset.
+
+## Recommendations
+-Improve rider retention: With 1,815 of the 2,933 riders who signed up in 2021 showing ride activity in 2024, the company can further analyze what keeps long-term riders active and use those patterns to design retention initiatives. 
+- Investigate cancellation patterns in Chicago: Since Chicago recorded the highest cancellation rate at 19.26%, management could investigate whether cancellations are associated with particular drivers, time periods, routes, or other operational factors.
+3. Recognize consistent driver performance: Driver activity metrics such as rides per active month can be incorporated into driver performance monitoring and recognition programs.
+4. Encourage digital payment adoption: The analysis identified riders with repeated ride activity and no recorded cash payments. Understanding these payment preferences could help the business improve and promote convenient digital payment options.
+5. Monitor city-level revenue performance: Revenue should be monitored by city and driver to identify strong-performing markets and understand the factors contributing to differences in revenue generation.
+6. Use transparent performance criteria for bonuses: Metrics such as ratings, completed rides, and cancellation rates can be combined into clearly defined performance criteria for driver recognition and incentive programs.
+
+
 
 
 
