@@ -49,10 +49,10 @@ The SQL analysis revealed several important patterns within the ride-hailing dat
 ## Recommendations
 -Improve rider retention: With 1,815 of the 2,933 riders who signed up in 2021 showing ride activity in 2024, the company can further analyze what keeps long-term riders active and use those patterns to design retention initiatives. 
 - Investigate cancellation patterns in Chicago: Since Chicago recorded the highest cancellation rate at 19.26%, management could investigate whether cancellations are associated with particular drivers, time periods, routes, or other operational factors.
-3. Recognize consistent driver performance: Driver activity metrics such as rides per active month can be incorporated into driver performance monitoring and recognition programs.
-4. Encourage digital payment adoption: The analysis identified riders with repeated ride activity and no recorded cash payments. Understanding these payment preferences could help the business improve and promote convenient digital payment options.
-5. Monitor city-level revenue performance: Revenue should be monitored by city and driver to identify strong-performing markets and understand the factors contributing to differences in revenue generation.
-6. Use transparent performance criteria for bonuses: Metrics such as ratings, completed rides, and cancellation rates can be combined into clearly defined performance criteria for driver recognition and incentive programs.
+- Recognize consistent driver performance: Driver activity metrics such as rides per active month can be incorporated into driver performance monitoring and recognition programs.
+- Encourage digital payment adoption: The analysis identified riders with repeated ride activity and no recorded cash payments. Understanding these payment preferences could help the business improve and promote convenient digital payment options.
+- Monitor city-level revenue performance: Revenue should be monitored by city and driver to identify strong-performing markets and understand the factors contributing to differences in revenue generation.
+- Use transparent performance criteria for bonuses: Metrics such as ratings, completed rides, and cancellation rates can be combined into clearly defined performance criteria for driver recognition and incentive programs.
 
 
 
